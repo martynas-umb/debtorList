@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-family: monospace;
+}
+ul {
+    list-style: none;
+    margin: auto;
+    margin-top: 30px;
+}
+.container{
+    min-height: 600px;
+    width: 600px;
+    background-color: aquamarine;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+h1  {
+    font-size: 32px;
+    line-height:2;
+    font-weight: 600;
+}
+h2 {
+    font-size: 30px;
+    line-height:2;
+    font-weight: 600;
+}
+.box{
+    margin: auto;
+}
+li {
+    margin: auto;
+    font-size: 22px;
+    line-height:1.5;
+    width: 220px;
+    text-align: left;
+}
+input{
+    height: 30px;
+}
+button {
+    height: 30px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    transform: Scale(1.1);
+}
+span{
+    color:red;
+    font-weight: 600;
+    cursor: pointer;
+    float: right;
+}
